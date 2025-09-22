@@ -1,0 +1,69 @@
+:root{
+    --azul:#1800AD;
+    --branco:#F5EFE6;
+    --fonte-titulo:"Montserrat", sans-serif;
+    --fonte-texto:"Open Sans", sans-serif;
+
+}
+
+
+.none{
+    display: none;
+}
+body{
+    background-color: var(--azul);
+    color:var(--branco);
+    overflow: hidden;
+    font-family: var(--fonte-texto);
+}
+.container-inicial{
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    padding: 0 3em;
+}
+.container-inicial img{
+    width: 40vw;
+}
+.container-inicial h1{
+    text-align: left;
+    font-size: 8em;
+    padding: 0.5em 0;
+    text-decoration: underline;
+    font-family: var(--fonte-titulo);
+    font-weight: 600;
+}
+.container-inicial h1::after{
+    content: ".";
+}
+.container-inicial-div{
+    display: flex;
+    height: 90%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.list{
+    padding: 2em 0;
+    gap: 10px;
+}
+.list-item{
+    border: 3px solid #F5EFE6;
+    border-radius: 32px;
+    padding: 1.25em;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 1.25em;
+    width: 50%;
+}
+.nome{
+    background-color: #F5EFE6;
+    color: #1800AD;
+}
+.planta{
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
