@@ -77,14 +77,15 @@ body {
   height: 90vh;
   background-color: var(--branco);
   color: var(--azul);
-  gap: 30px;
+  gap: 60px;
   padding-left: 2em;
   
   
 }
 .about p{
-  width: 50%;
+  max-width: 45vw;
   font-family: var(--fonte-texto);
+  font-size: 1.3em;
 }
 .about img{
   mix-blend-mode: multiply;
